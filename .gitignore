@@ -1,6 +1,9 @@
 # Don't track content of these folders
 node_modules/
 someOtherfoler/
+.metadata/
+.settings/
+RemoteSystemsTempFiles/
 
 
 # Compiled source #
@@ -12,7 +15,8 @@ someOtherfoler/
 *.o
 *.so
 
-*.so
+*.classpath
+*.project
 
 # Packages #
 ############
